@@ -1,0 +1,245 @@
+/* headerpart */
+*{
+    font-family: 'Roboto Condensed', sans-serif;    text-decoration: none;
+}
+.logo{
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 120px;
+}
+.headerclass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks{
+    display: flex;
+    margin-right: 60px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Playfair+Display:ital@1&family=Roboto+Condensed&display=swap');
+.links{
+    color: black;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+.links:hover{
+    color: red;
+}
+
+/* home section */
+#home{
+    margin-top:100px;
+}
+
+.title{
+    margin-top: 13%;
+    margin-left:8%
+}
+
+.titleh1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.secondname{
+    color: orange;
+}
+
+.download{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin:30px 0px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.images{
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    bottom: 0;
+    right:30px;
+}
+
+.images img{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform:translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover #shape{
+    bottom: 70px;
+}
+
+.images:hover #girl{
+    left: 40%;
+}
+
+/* about section */
+
+#about{
+    margin-top: 200px;
+}
+.heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.heading span{
+    color: green;
+}
+.aboutcontent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    gap: 2rem;
+}
+.user span{
+    margin-top: 10px;
+}
+
+.aboutimage img{
+    width: 70%;
+}
+
+.abtdetails{
+    text-align: justify;
+}
+
+/* skills */
+
+#skill{
+    margin-top: 100px;
+}
+
+.skills{
+    text-align: center;
+    margin-top: 50px;
+}
+.skills span{
+    color: green;
+}
+
+
+.sc{
+    margin-top: 50px;
+}
+#htmlb{
+    height: 6px;
+    width: 500px;
+    background-color: black;
+    border-radius: 6px;
+    margin-left: 90px;
+}
+#htmly{
+    height: 6px;
+    width: 475px;
+    background-color: orange;
+    border-radius: 6px;
+    margin-left: 90px;
+    margin-top: -6px;
+}
+#cssb{
+    height: 6px;
+    width: 500px;
+    background-color: black;
+    border-radius: 6px;
+    margin-left: 90px;
+}
+#cssy{
+    height: 6px;
+    width: 440px;
+    background-color: orange;
+    border-radius: 6px;
+    margin-left: 90px;
+    margin-top: -6px;
+
+}
+#jsb{
+    height: 6px;
+    width: 500px;
+    background-color: black;
+    border-radius: 6px;
+    margin-left: 90px;
+}
+#jsy{
+    height: 6px;
+    width: 445px;
+    background-color: orange;
+    border-radius: 6px;
+    margin-left: 90px;
+    margin-top: -6px;
+
+}
+#rb{
+    height: 6px;
+    width: 500px;
+    background-color: black;
+    border-radius: 6px;
+    margin-left: 90px;
+
+}
+#ry{
+    height: 6px;
+    width: 425px;
+    background-color: orange;
+    border-radius: 6px;
+    margin-top: -6px;
+    margin-left: 90px;
+
+}
+.skl1{
+    margin-left: 90px;
+    font-style: italic;
+    margin-top: 40px;
+} 
+
+.sc img{
+    width: 550px;
+    margin-left: 680px;
+    margin-top: -250px;
+}    
+
+.contacticon{
+    margin-top: 50px;
+    margin-left:450px;
+}
+
+.contacticon i{
+    margin-left: 20px;
+    color: black;
+}
+.contacticon i:hover{
+    color: rgb(255, 252, 253);
+    background-image: linear-gradient( to bottom right, orange,red);
+    animation: shake 1s;
+}
+@keyframes shake {
+    50% {
+        transform: rotate(15deg);
+    }
+}
+#top{
+    margin-right: 10px;
+}
+
+#topbtn{
+    width: 45px;
+    height: 45px;
+    margin-top: 5%;
+    margin-left: 95%;
+    border-radius: 50%;
+    background-image:linear-gradient(orange,red) ;
+    border-style: none;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    font-style: oblique;
+}
